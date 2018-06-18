@@ -2,7 +2,7 @@
 def display_board
   cell = "   "
   row = cell + "|" + cell + "|" + cell
-  separator = "-----------"
+  separator = "\n-----------\n"
   print row
   print separator
   print row
