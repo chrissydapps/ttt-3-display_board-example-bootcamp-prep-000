@@ -7,7 +7,7 @@ def display_board
   print separator
   print row
   print separator
-  print row
+  print row + '\n'
 end
 
 display_board
