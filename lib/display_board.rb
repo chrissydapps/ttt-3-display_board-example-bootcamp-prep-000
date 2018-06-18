@@ -3,7 +3,11 @@ def display_board
   cell = "   "
   row = cell + "|" + cell + "|" + cell
   separator = "-----------"
-  return row + separator + row + separator + row
+  print row
+  print separator
+  print row
+  print separator
+  print row
 end
 
 display_board
